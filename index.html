@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Assignment</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+
+            <br>
+
+            <h1 class="title"><b>Historical Motor Racing Records!</b></h1>
+            <h2><i>Since the beginning of the World Championships in <b>1950.</b></i></h2>
+        </div>
+
+    <br>
+
+        <div class="form">
+            <div class="homePage">
+              <form>
+                <p>
+                  <label for="search"><b>Enter Driver Name(required): </label>
+                  <input type="text" id="search" class="search" required />
+                </p>
+                <p>
+                  <label for="date">Enter a Race date:</label>
+                  <input
+                    type="date"
+                    id="start-date"
+                    class="start-date"
+                    pattern="[0-9]{8}"
+                  />
+                </p>
+                <p>
+                  <button class="searchBtn">Search</b></button>
+                </p>
+              </form>
+
+              <div class="displayResults"> 
+                    <section>
+
+                    </section>
+                    <footer>
+                        <button class="goBack"><b>Go Back</b></button>
+                        <button class="nextPage"><b>Next Page</b></button>
+                    </footer>
+                    <br>
+              </div>
+        </div>
+    </div>
+
+   <script src="./API.js"></script> 
+</body>
+</html>
