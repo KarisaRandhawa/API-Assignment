@@ -1,5 +1,5 @@
 //linking API
-const websiteURL = "http://ergast.com/api/f1";
+const websiteURL = "https://ergast.com/api/f1";
 let url;
 
 //homePage
