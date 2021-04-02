@@ -2,6 +2,8 @@ body {
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
   background-image: url("https://cdn.wallpapersafari.com/25/21/zGig7h.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header {
